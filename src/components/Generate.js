@@ -37,11 +37,11 @@ const Generate = ({array, onGenerateClick, onAlgorithmSelect, selectedAlgorithm,
                     className={`generate-button ${selectedSize === 'Small' && array.length > 0 ? 'selected' : ''}`}>
                     Small
                 </button>
-                {play && <i className="fa-sharp fa-solid fa-pause fa-shake fa-2xl push-right"
+                {play && <i className="fa-sharp fa-solid fa-pause fa-2xl push-right"
                     onClick={() => handlePlay(false)}>     
                 </i>}
                 {!play &&
-                <i className="fa-sharp fa-solid fa-play fa-shake fa-2xl push-right"
+                <i className="fa-sharp fa-solid fa-play fa-2xl push-right"
                     onClick={() => handlePlay(true)}>
                 </i>}
             </div>
