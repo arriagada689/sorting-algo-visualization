@@ -1,0 +1,12 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #16222A , #3A6073);
+    height: 100px;
+    color: white;
+}
+
+.header-title {
+    margin: 0;
+}

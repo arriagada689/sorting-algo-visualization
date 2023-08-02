@@ -1,0 +1,48 @@
+.large-array-graph-container {
+    border: 1px solid #000;
+    height: auto;
+    width: 85%;
+    display: flex;
+    align-items: flex-end; /* To make bars start at the same base */
+    justify-content: space-around; /* To have some space between bars */
+    margin: auto; /* To center the container */
+    margin-top: 5px;
+} 
+
+.small-array-graph-container {
+    border: 1px solid #000;
+    height: auto;
+    width: 85%;
+    display: flex;
+    align-items: flex-end; /* To make bars start at the same base */
+    justify-content: space-around; /* To have some space between bars */
+    margin: auto; /* To center the container */
+    margin-top: 5px;
+} 
+
+.small-bar {
+    width: .33%;
+    margin: .08%;
+    color: #fff;
+    background-color: #6200ee;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.big-bar {
+    width: 30px;
+    color: #fff;
+    background-color: #6200ee;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.highlight {
+    background-color: #03dac6 !important;
+}
+
+.sorted {
+    background-color: green;
+}

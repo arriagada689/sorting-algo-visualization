@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 640px;
+  margin-bottom: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.add-radius {
+  border-radius: 15px;
+}
+
+.add-shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 2);
+}

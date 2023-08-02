@@ -1,0 +1,30 @@
+.source-code-container {
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 5px;
+}
+.code-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* This will provide spacing between buttons. Adjust as needed */
+  padding: 10px 0; /* Add some padding top and bottom */
+}
+  
+.code-button {
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px; /* Adjust as needed */
+  background-color: #16222A; /* Adjust color as needed */
+  color: white; /* Adjust color as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* Adjust as needed */
+}
+  
+.code-button:hover {
+  background-color: #3A6073; /* Adjust color as needed */
+}
+
+.selected {
+  background-color: #007BFF;
+}
